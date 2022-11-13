@@ -1,0 +1,93 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.div_card{
+    width: 320px;
+    height: 387px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+}
+
+.div_card img{
+    width: 300px;
+    height: 300px;
+}
+
+.div_card p{
+    margin: 5px;
+}
+
+.tittle{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#spinner {
+    padding: 50px;
+  }
+
+.nav_container{
+    padding: 2rem;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+
+.spiner{
+    margin-top: 1rem;
+}
+
+.title_nav{
+    margin-left: 2rem;
+}
+
+.pagination ul{
+    margin: 2rem auto; 
+}
+
+.nav_container input{
+    position: relative;
+    top: .7rem;
+    right: 3rem;
+    width: 200px;
+    height: 30px;
+}
+
+.form{
+    border-top: 3px solid black;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.form p{
+    margin-top: 1rem;
+}
+
+#input {
+    width: 400px;
+}
+
+button{
+    margin: 2rem;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
