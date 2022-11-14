@@ -98,7 +98,7 @@ checkVod.addEventListener("change", () =>{
 
 // FET PRODUCTS CATEGORY
 function getProductByCategory(category){
-    fetch(`https://bsaletest-production-8998.up.railway.app//category?category=${category}`)
+    fetch(`https://bsaletest-production-8998.up.railway.app/category?category=${category}`)
     .then((res) => res.json())
     .then(data =>{
         for(let i = 1; i<= data.length; i++){
@@ -166,7 +166,7 @@ submit.addEventListener("click", ()=>{
 let name = "ENERGETICA RED BULL"
 
 function fectchProductoByName(name){
-    fetch(`https://bsaletest-production-8998.up.railway.app//product/?name=${name}`)
+    fetch(`https://bsaletest-production-8998.up.railway.app/product/?name=${name}`)
         .then((res) => res.json())
         .then(data =>{
             console.log(data[0])
